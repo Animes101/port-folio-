@@ -100,6 +100,9 @@ body{
 .about-content{
     width:80%;
     margin:auto;
+    padding:100px;
+    box-sizing: border-box;
+    background-color: #FFF8F3;
 }
 .about-section h1{
     color:#181818;
@@ -110,4 +113,74 @@ body{
 .about-section p{
     color:#757575;
     font-size: 25px;
+    text-align:center;
+}
+.infomation{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.information-box{
+    width:25%;
+
+}
+.information-box h3{
+    color:#757575;
+    font-size:30px
+}
+
+/* slill section style */
+.skill-area{
+    width:80%;
+    margin: auto;
+}
+
+.skill-section h1{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.skill-section p{
+    color: #757575;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.box{
+    width:20%;
+    border:2px solid #757575;
+    padding:10px;
+
+}
+.box img{
+    width: 50%;
+    border-radius: 5px;
+
+}
+.resumi-content{
+    width: 80%;
+    margin: auto;
+}
+.skill-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumi>h1{
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+}
+.resumi-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.rebox{
+    width: 45%;
+
 }
