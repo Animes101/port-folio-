@@ -184,3 +184,73 @@ body{
     width: 45%;
 
 }
+.rebox h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.rebox h2{
+    font-size: 35px;
+
+}
+.rebox h3{
+    font-size: 28px;
+    color: #757575;
+}
+
+/* footer */
+.footer{
+       background-color: #FFF8F3;
+       padding:10px;
+
+}
+.foter-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.contact{
+    width: 50%;
+}
+.form{
+    width: 50%;
+}
+.contact h1{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.contact p{
+    color:#757575;
+    font-size: 18px;
+}
+.contact ul{
+    list-style: none;
+    display: flex;
+
+}
+.contact ul li {
+    padding:10px 20px;
+    border:2px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.form h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+form input{
+    display: block;
+    padding:5px 5px;
+    margin:10px 0;
+    width: 60%;
+    box-sizing: border-box;
+}
+form button{
+    display: block;
+    background-color: #FD6E0A;
+    font-size: 30px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
